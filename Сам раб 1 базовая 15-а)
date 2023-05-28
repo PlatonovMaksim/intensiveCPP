@@ -1,0 +1,15 @@
+// Сам раб 1 базовая 15-а)
+
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    float a, x; 
+    cout << "Введите a" << endl;
+    cin >> a;
+    x = sqrt((2 * a + sin(abs(3*a))) / 3.56 );
+    cout << "Ответ: " << x << endl;
+    return 0;
+}
